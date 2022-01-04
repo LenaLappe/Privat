@@ -15,7 +15,7 @@
 }
 
 a{
-    color: #68a4d6a1;
+    color: #68a4d6;
     text-decoration: none;
 }
 
@@ -26,13 +26,14 @@ li{
 .navi {
     background-color: #68a4d6a1;
     height: 80px;
-    /* width: 788px;
-    top: 0px; */
+    width: 100%;
+    top: 0px;
+    right: 2px;
     /* left: 276px; */
-    padding: 5px 5px 5px 5px;
+    /* padding: 5px 5px 5px 5px; */
     /* border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px; */
-    position: relative;
+    position: fixed;
 }
 
 
@@ -66,15 +67,15 @@ li{
     font-size: 26pt;
     text-decoration: ivory;
     color:#8ab5d6;
-    /* padding: 60px; */
+    padding: 60px;
 }
 
 
 .socials-box {
     width: fit-content;
-    position: absolute;
+    position: fixed;
     top: 28px;
-    right: 120px;
+    right: 0px;
 }
 
 .socials {
